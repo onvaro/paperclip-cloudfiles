@@ -82,7 +82,7 @@ module Paperclip
 
       def create_container
         container = cloudfiles.create_container(@container_name)
-        container.make_public
+        # container.make_public
         container
       end
       
